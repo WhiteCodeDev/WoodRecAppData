@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c3"
+    tools:context=".Menu">
+
+    <Button
+        android:id="@+id/btnProcess1"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="203dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="114dp"
+        android:fontFamily="@font/billabong"
+        android:text="Process Image"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWood" />
+
+    <Button
+        android:id="@+id/btnWood"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="203dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/billabong"
+        android:text="Wood Samples"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/btnProcess1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+</android.support.constraint.ConstraintLayout>
